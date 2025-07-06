@@ -10,7 +10,7 @@ export function UserHeader({ variant = "white" }) {
                 return (
                     <a
                     key={index}
-                    href='/sections/login'
+                    href='/webpages/login'
                     className="alignCenter">
                     <Icon className={header[info.className]}/>
                     <span className={header.userText}>Account</span>

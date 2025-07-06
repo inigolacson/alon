@@ -1,9 +1,6 @@
 import Head from "next/head";
 import hero from "@styles/modules/hero-section.module.scss";
-import header from "@/styles/modules/header.module.scss"
-import { HeaderIcon } from "@/components/header-icon";
-import { UserHeader } from "@/components/header-user";
-
+import { Header } from "./home-sections/header";
 
 export default function Home() {
   return (
@@ -15,12 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main>
-          <header className={header.blackHeader}>
-              <div className={header.container}>
-                <HeaderIcon variant="black"/>
-                <UserHeader variant="black"/>
-              </div>
-          </header>
+          <Header/>
           <section className={hero.container}>
             <div className={hero.bgImage}>
             <div className={hero.overlay}></div>
