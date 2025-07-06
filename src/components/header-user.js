@@ -4,7 +4,7 @@ import header from "@styles/modules/header.module.scss"
 export function UserHeader({ variant = "white" }) {
     return (
         <section className={header.userContainer}>
-            {userInfo.filter((info) => info.className === ( variant === 'white' ? 'whtHdIcon' : 'blkHdIcon'))
+            {userInfo.filter((info) => info.className === ( variant === 'white' ? 'whtHdUser' : 'blkHdUser'))
             .map((info, index) => {
                 const Icon = info.icon;
                 return (

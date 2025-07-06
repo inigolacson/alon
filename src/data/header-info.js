@@ -47,10 +47,10 @@ export const iconInfo = [
 export const userInfo = [
     {
         icon: FaUser,
-        className: 'blkHdIcon',
+        className: 'blkHdUser',
     },
     {
         icon: FaUser,
-        className: 'whtHdIcon',
+        className: 'whtHdUser',
     }
 ]
