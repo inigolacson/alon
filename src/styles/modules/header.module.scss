@@ -1,0 +1,19 @@
+@use '../variables.scss' as *;
+
+.blackHeader{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: $accent-color;
+}
+
+.blkHdIcon {
+    color: white;
+    font-size:  2rem;
+}
+
+.whtHdIcon {
+    color: $accent-color;
+    font-size: 2rem;
+}
+
