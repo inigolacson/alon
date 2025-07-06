@@ -1,6 +1,7 @@
 import Head from "next/head";
 import hero from "@styles/modules/hero-section.module.scss";
 import { Header } from "./home-sections/header";
+import { Hero } from "./home-sections/hero";
 
 export default function Home() {
   return (
@@ -13,11 +14,7 @@ export default function Home() {
       </Head>
         <main>
           <Header/>
-          <section className={hero.container}>
-            <div className={hero.bgImage}>
-            <div className={hero.overlay}></div>
-            </div>
-          </section>
+          <Hero/>
         </main>
     </>
   );
