@@ -1,5 +1,4 @@
 import Head from "next/head";
-import hero from "@styles/modules/hero-section.module.scss";
 import { Header } from "./home-sections/header";
 import { Hero } from "./home-sections/hero";
 
