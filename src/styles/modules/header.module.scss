@@ -9,8 +9,17 @@
     display: flex;
 }
 
-.iconContainer{
+.container{
+    width: 100%;
+    display: flex;
     margin-left: 15rem;
+    margin-right: 15rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconContainer{
+    align-items: center;
     display: flex;
     gap: .6rem;
 }
@@ -25,3 +34,22 @@
     font-size: 1.5rem;
 }
 
+.userContainer {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.userText{ 
+    font-size: 1rem;
+    color: white;
+
+}

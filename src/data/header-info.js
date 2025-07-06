@@ -1,4 +1,4 @@
-import {FaInstagram, FaFacebook, FaYoutube} from 'react-icons/fa';
+import {FaInstagram, FaFacebook, FaYoutube, FaUser} from 'react-icons/fa';
 import {SiTiktok} from 'react-icons/si'
 
 export const iconInfo = [
@@ -44,3 +44,13 @@ export const iconInfo = [
     }
 ]
 
+export const userInfo = [
+    {
+        icon: FaUser,
+        className: 'blkHdIcon',
+    },
+    {
+        icon: FaUser,
+        className: 'whtHdIcon',
+    }
+]

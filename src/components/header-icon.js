@@ -1,19 +1,19 @@
-import  { iconInfo }  from "@/data/icons"
+import { iconInfo }  from "@/data/header-info"
 import header from "@styles/modules/header.module.scss"
 
 export function HeaderIcon({ variant = "white" }) {
-    return(
+    return (
         <section className={header.iconContainer}>
             {iconInfo.filter((info) => info.className === (variant === "white" ? "whtHdIcon" : "blkHdIcon"))
             .map((info, index) => {
                 const Icon = info.icon;
-                return(
+                return (
                     <a
                     key={index}
                     href={info.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
+                    class="alignCenter">
                     <Icon className={header[info.className]}/>
                     </a>
                 )

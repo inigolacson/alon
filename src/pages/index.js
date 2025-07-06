@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "@/styles/modules/home.module.scss";
 import header from "@/styles/modules/header.module.scss"
 import { HeaderIcon } from "@/components/header-icon";
+import { UserHeader } from "@/components/header-user";
+
 
 export default function Home() {
   return (
@@ -14,7 +16,10 @@ export default function Home() {
       </Head>
         <main>
           <header className={header.blackHeader}>
-              <HeaderIcon variant="black"/>
+              <div className={header.container}>
+                <HeaderIcon variant="black"/>
+                <UserHeader variant="black"/>
+              </div>
           </header>
         </main>
     </>
