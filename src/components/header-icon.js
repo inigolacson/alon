@@ -13,7 +13,7 @@ export function HeaderIcon({ variant = "white" }) {
                     href={info.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="alignCenter">
+                    className="alignCenter">
                     <Icon className={header[info.className]}/>
                     </a>
                 )
