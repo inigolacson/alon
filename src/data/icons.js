@@ -7,3 +7,5 @@ import {
 import {
     SiTiktok
 } from 'react-icons/si'
+
+export {FaInstagram, FaFacebook, FaYoutube, SiTiktok}
