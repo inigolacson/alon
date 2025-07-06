@@ -5,15 +5,23 @@
     height: 50px;
     position: relative;
     background-color: $accent-color;
+    align-items: center;
+    display: flex;
+}
+
+.iconContainer{
+    margin-left: 15rem;
+    display: flex;
+    gap: .6rem;
 }
 
 .blkHdIcon {
     color: white;
-    font-size:  2rem;
+    font-size:  1.5rem;
 }
 
 .whtHdIcon {
     color: $accent-color;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
