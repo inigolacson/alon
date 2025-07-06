@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "@/styles/modules/home.module.scss";
+import hero from "@styles/modules/hero-section.module.scss";
 import header from "@/styles/modules/header.module.scss"
 import { HeaderIcon } from "@/components/header-icon";
 import { UserHeader } from "@/components/header-user";
@@ -21,6 +21,9 @@ export default function Home() {
                 <UserHeader variant="black"/>
               </div>
           </header>
+          <section className={hero.container}>
+
+          </section>
         </main>
     </>
   );
